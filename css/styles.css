@@ -26,6 +26,15 @@ figure {
   width: 20em;
 }
 
+.lg-backdrop {
+    background: rgba (255,255,255,.8);
+}
+
+.lg-image{
+    box-shadow: 0 0 30px grey;
+    border-radius: 10px;
+}
+
 
 /********************
 MEDIA QUERIES
@@ -35,9 +44,13 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: red;
-  }
-  
+      background: red;
+      }
+    
+    .figure{
+        width: 100%;
+        display: block;
+    }
 }
 
 /* Tablet:  768px = 160em */
@@ -45,7 +58,7 @@ MEDIA QUERIES
 
   /* Diagnostic Styling. */
   body {
-       background: green;
+      background: green;
   }
 
 }
